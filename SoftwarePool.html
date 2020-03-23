@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="Tables.css">
     <link rel="stylesheet" type="text/css" href="MenuBar.css">
     <link rel="stylesheet" type="text/css" href="General.css">
+    <link rel="stylesheet" type="text/css" href="Softwarepool.css">
 </head>
 <body>
 <ul class="menu">
@@ -14,5 +15,47 @@
     <li class="menu"><a href="FileCenterRafa.html">File Center</a></li>
     <li class="menu"><a class="activeMenu" href="SoftwarePool.html">Software Pool</a></li>
 </ul>
+
+
+<div>
+<form class="softwarepool">
+    <h3>Wäheln Sie die Programme aus, die Sie benötigen:</h3>
+    <ul class="gsoftware">
+        <h4>Bildbearbeitung</h4><br>
+        <li><input type="checkbox" name="gsoftwarepool"> Paint.Net</li>
+        <li><input type="checkbox" name="gsoftwarepool"> Blender</li>
+        <li><input type="checkbox" name="gsoftwarepool"> Gimp </li>
+    </ul>
+    <ul class="gsoftware2">
+        <h4>Developer Tools</h4><br>
+        <li><input type="checkbox" name="gsoftwarepool"> Python</li>
+        <li><input type="checkbox" name="gsoftwarepool"> openJDK</li>
+        <li><input type="checkbox" name="gsoftwarepool"> Notepad++</li>
+        <li><input type="checkbox" name="gsoftwarepool"> VSCode</li>
+        <li><input type="checkbox" name="gsoftwarepool"> Eclipse</li>
+    </ul>
+    <ul class="gsoftware3">
+        <h4>Media</h4><br>
+        <li><input type="checkbox" name="gsoftwarepool"> iTunes</li>
+        <li><input type="checkbox" name="gsoftwarepool"> VLC</li>
+        <li><input type="checkbox" name="gsoftwarepool"> MediaMonkey</li>
+        <li><input type="checkbox" name="gsoftwarepool"> Spotify</li>
+        <li><input type="checkbox" name="gsoftwarepool"> Audacity</li>
+    </ul>
+                <input type="submit" name="gsoftwarepool" value="submit" class="sfsubmit">
+</form>
+</div>
+<div>
+<form name="sondersoftware" class="sonsoft">
+    <h1>Sondersoftware beantragen</h1><br>
+    <input name="gruppenname" placeholder="Gruppenname" type="text" class="form-control" required/><br>
+    <input name="dozentenemail" placeholder="Dozentenemail" type="email" class="form-control" required/><br/>
+    <input name="softwarename" placeholder="Name des Programms" type="text" class="form-control"><br/>
+    <textarea name="beschreibung" placeholder="Warum und wofür brauchst du das Programm" class="form-control" required >
+    </textarea><br/>
+    <input type="submit" class="form-control submit"  value="Abschicken"  />
+</form>
+</div>
+
 </body>
 </html>
