@@ -1,0 +1,38 @@
+table.files {
+    border-collapse: collapse;
+margin-left: 30px;
+width: 25%;
+}
+
+
+td.files {
+    height: 25px;
+    vertical-align: center;
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial;
+}
+
+th.files {
+    font-size: 16px;
+    font-family: Arial;
+    color: white;
+    background-color: cornflowerblue;
+    height: 25px;
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr.files {
+    border: 1px solid #ddd;
+}
+
+tr.files:nth-child(even) {
+    background-color: aliceblue;
+}
+
+tr.files:hover {
+    background-color: lightgrey;
+}

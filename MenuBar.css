@@ -1,0 +1,39 @@
+ul.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    box-shadow: 0px 5px 5px 0px grey;
+}
+
+li.menu {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li.menu a {
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li.menu a:hover {
+    background: #111;
+}
+
+a.activeMenu {
+    background-color: cornflowerblue;
+}
+
+li.menu a.activeMenu:hover {
+    background-color: royalblue;
+}
+

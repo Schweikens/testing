@@ -1,0 +1,42 @@
+
+table.groups {
+    border-collapse: collapse;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+
+td.groups {
+    height: 50px;
+    font-size: 16px;
+    vertical-align: center;
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial;
+}
+
+th.groups {
+    font-size: 28px;
+    font-family: Arial;
+    color: white;
+    background-color: cornflowerblue;
+    height: 50px;
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr.groups {
+    border: 1px solid #ddd;
+}
+
+tr.groups:nth-child(even) {
+    background-color: aliceblue;
+}
+
+tr.groups:hover {
+    background-color: lightgrey;
+}
+

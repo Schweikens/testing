@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FileCenter</title>
+</head>
+<body>
+<fieldset>
+    <img src="osca-Bild.png" alt="OSCA"/>
+    <h1 align="center">Bereitstellung & Abgabe</h1>
+
+
+    <h2 align="center">File Center</h2>
+</fieldset>
+<a href="MeineGruppen.html">Meine Gruppen</a>
+<a href="FileCenter.html">File Center</a>
+<a href="SoftwarePool.html">Software Pool</a>
+
+<fieldset>
+    <h4>Upload Projektarbeit</h4>
+
+    <form action="select.html">
+        <label>Dokument auswählen:
+            <select  size="3">
+                <option>Dokumentation</option>
+                <option>Präsentation</option>
+                <option>Sonstige Dokumentationen</option>
+            </select>
+        </label>
+    </form>
+    <br>
+    <form action="manage_uploads.php" method="post" enctype="multipart/form-data">
+        <label>Datei hochladen
+            <input name="datei[]" type="file" multiple>
+        </label>
+        <button>hochladen</button>
+    </form>
+
+<br>
+    <label>Download hochgeladene Präsentation</label>
+    <a href="/images/myw3schoolsimage.jpg" download="w3logo">
+        <img src="/images/myw3schoolsimage.jpg" alt="W3Schools">
+    </a>
+    <br>
+    <label>Download hochgeladene Dokumentation</label>
+    <a href="/images/myw3schoolsimage.jpg" download="w3logo">
+        <img src="/images/myw3schoolsimage.jpg" alt="W3Schools">
+    </a>
+    <br>
+    <label>Download hochgeladene sonstige Dokumente</label>
+    <a href="/images/myw3schoolsimage.jpg" download="w3logo">
+        <img src="/images/myw3schoolsimage.jpg" alt="W3Schools">
+    </a>
+
+
+
+
+</fieldset>
+
+<fieldset> <h3>Dokumenten Status</h3>
+
+    <table border="1|0">
+        <tr>
+
+            <th>Datum</th>
+            <th>Uhrzeit</th>
+            <th>Dateiname</th>
+            <th>Status</th>
+
+
+        </tr>
+        <tr>
+            <td>Dokument1</td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox" name="zutat" value="Meilenstein1">
+                Abgegeben</td>
+
+        </tr>
+        <tr>
+            <td>Dokument2</td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox" name="zutat" value="Meilenstein1">
+                Abgegeben</td>
+
+        </tr>
+        <tr>
+            <td>Dokument3</td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox" name="zutat" value="Meilenstein1">
+                Abgegeben</td>
+
+        </tr>
+
+    </table></fieldset>
+</body>
+</html>
